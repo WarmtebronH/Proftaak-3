@@ -55,31 +55,107 @@
   font-size: small;
 }
 
-
-
-.onder{
-    text-align: center;
-    width: 1445px;
-    border: 1px solid gainsboro;
-    margin: 20px;
-    padding-left:30px;
+.topnav input[type=text] {
+  padding: 6px;
+  border-style: groove;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
 }
 
-  .menu-footer{
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-    
-  }
-  
-  .menu-overig{
-    color: black;
-    background-color: transparent;
-  }
+.button {
+background-color: #3B9FE2;
+border: none;
+color: black;
+padding: 14px 12px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 14px;
+margin: 7px 2px;
+cursor: pointer;
+}
 
-  #footerlist li{
-    color: black;
-    display: inline;
-    padding-left:30px;
-    margin-right: 20px;
-  }
+#gallerycontent{
+  float: left;
+  max-width: 1685px;
+  padding: 10px 5px 5px 75px;
+  text-align: justify;
+}
+
+#gallerycontent .galleryitem{
+  width: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+  clear: both; display:inline-block
+
+}
+#gallerycontent img{
+  float: left;
+  width: 90%;
+  height: 90%;
+  margin: 2.5%;
+}
+#gallerycontent ul{
+  padding-left: 50px;
+  list-style-type:square;
+}
+
+#gallerycontent2{
+  float: left;
+  max-width: 1685px;
+  padding: 80px 5px 5px 75px;
+  text-align: justify;
+}
+
+#gallerycontent2 .galleryitem2{
+  width: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+  clear: both; display:inline-block
+}
+#gallerycontent2 img{
+  float: left;
+  width: 90%;
+  height: 90%;
+  margin: 2.5%;
+}
+#gallerycontent2 ul{
+  padding-left: 50px;
+  list-style-type:square;
+}
+a{  text-decoration: none!important;
+  color: black;
+}
+
+  
+.onder{
+  text-align: center;
+  margin: 20px;
+  margin-top: 50px;
+  padding-left:30px;
+}
+
+.menu-footer{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  
+}
+
+.menu-overig{
+  color: black;
+  background-color: transparent;
+}
+
+#footerlist li{
+  color: black;
+  display: inline;
+  padding-left:30px;
+  margin-right: 20px;
+}

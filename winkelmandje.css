@@ -58,6 +58,7 @@
 
 #content{
   margin:20px;
+    text-decoration: none;
 }
 #banner{
   background-color: rgb(0, 164, 209);
@@ -78,6 +79,8 @@ background-color: rgb(0, 139, 209);
 color: white;
 margin-left: 1350px;
 font-size: medium;
+
+
 }
 
 #toevoegen-boodschappen{
@@ -98,6 +101,7 @@ font-size: medium;
   position: absolute;
   right: 500px;
   top: 350px;
+  
 }
 
 #itemCounterWhite{
@@ -121,13 +125,7 @@ font-size: medium;
     font-weight: bold;
     
   }
-
-
-
-
-
-
-
+  
 
 .onder{
     text-align: center;

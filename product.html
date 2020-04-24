@@ -1,38 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Producten Albert Heijn</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="product.css">
-</head>
-<body>
-  <div id = "header">
-    <div class="container">
-      <div class="menu">
-        <ul id = "menu">
-      <li><a id = "inloggen", href= "hoofdpagina.html"><img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Albert_Heijn_Logo.svg/399px-Albert_Heijn_Logo.svg.png" 
-        width="40" height="40"></a></li>
-      <li>  <a id = "inloggen", href= "inloggen.html">  Inloggen </a></li>
-      <li> <a href= "product.html"> Producten</a> </li>
-      <li> <a href= "bonus.html"> Bonus</a> </li>
-      <li> <a href= "recept.html"> Recepten</a> </li>
-      <li> <a href= "winkel.html"> Winkels</a> </li>
-      <li> <a href= "actie.html"> Acties</a> </li>
-        <li><a href= "winkelmandje.html">Winkelmandje</a></li>
-        </ul>
-        <img id = "cartImage" src= "https://image.flaticon.com/icons/svg/2438/2438168.svg" onclick="clickCart()"> 
-        <h3 id="itemCounter"> 0 </h3>
-        <p id = "orderTotal"></p>
-        </div>
-    </div>
-    </div>
-    </div>
-        <div id = "content">
-        <div class="container">
-            </div>
-            </div>
+    <meta name="description" content="Online catalogus tijdens corona">
+  </head>
 
+  <body>
+    <div id = "header">
+      <div class="container">
+        <div class="menu">
+          <ul id = "menu">
+        <li><a id = "inloggen", href= "hoofdpagina.html"><img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Albert_Heijn_Logo.svg/399px-Albert_Heijn_Logo.svg.png" 
+          width="40" height="40"></a></li>
+        <li>  <a id = "inloggen", href= "inloggen.html">  Inloggen </a></li>
+        <li> <a href= "product.html"> Producten</a> </li>
+        <li> <a href= "bonus.html"> Bonus</a> </li>
+        <li> <a href= "recept.html"> Recepten</a> </li>
+        <li> <a href= "winkel.html"> Winkels</a> </li>
+        <li> <a href= "actie.html"> Acties</a> </li>
+          <li><a href= "winkelmandje.html">Winkelmandje</a></li>
+          </ul>
+          <img id = "cartImage" src= "https://image.flaticon.com/icons/svg/2438/2438168.svg" onclick="clickCart()"> 
+          <h3 id="itemCounter"> 0 </h3>
+          <p id = "orderTotal"></p>
+          </div>
+      </div>
+      </div>
+      </div>
+
+  <div class="topnav">
+    <input type="text" placeholder="Zoeken..">
+    <button class="button">Zoeken</button>
+  </div>
+
+  <div id="gallerycontent">
+          <div class="galleryitem">
+          <img src="fruit.png"/>
+          <a href="fruit.html"<p style="font-size:30px">fruit</p></a>
+          </div>
+          <div class ="galleryitem">
+          <img src="groente.png"/>
+          <p style="font-size:30px">groente</p>
+          </div>
+          <div class="galleryitem">
+          <img src="kaas-en-melk.png"/>
+          <p style="font-size:30px">zuivel</p>
+          </div>
+          <div class="galleryitem">
+          <img src="vlees.png"/>
+          <a href="vleeswaren.html"<p style="font-size:30px">vleeswaren</p></a>
+          </div>
+          <div class="galleryitem">
+          <img src="brood.png"/>
+          <p style="font-size:30px">brood</p>
+          </div>
+      </div>
+
+      <div id="gallerycontent2">
+              <div class="galleryitem2">
+              <img src="drank.png"/>
+              <p style="font-size:30px">drank</p>
+              </div>
+              <div class ="galleryitem2">
+              <img src="snoep.png"/>
+              <p style="font-size:30px">snoep</p>
+              </div>
+              <div class="galleryitem2">
+              <img src="vis.png"/>
+              <p style="font-size:30px">vis</p>
+              </div>
+              <div class="galleryitem2">
+              <img src="huisdier.png"/>
+              <p style="font-size:30px">dierenvoeding</p>
+              </div>
+              <div class="galleryitem2">
+              <img src="baby.png"/>
+              <p style="font-size:30px">babyproducten</p>
+              </div>
+          </div>
+
+
+
+
+
+
+
+
+  
 
          <div id = "footer">
       <div class="container">

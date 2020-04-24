@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="fruit.css">
+    <meta name="description" content="Online catalogus tijdens corona">
+  </head>
+  <body>
+    <div id = "header">
+      <div class="container">
+        <div class="menu">
+          <ul id = "menu">
+        <li><a id = "inloggen", href= "hoofdpagina.html"><img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Albert_Heijn_Logo.svg/399px-Albert_Heijn_Logo.svg.png" 
+          width="40" height="40"></a></li>
+        <li>  <a id = "inloggen", href= "inloggen.html">  Inloggen </a></li>
+        <li> <a href= "product.html"> Producten</a> </li>
+        <li> <a href= "bonus.html"> Bonus</a> </li>
+        <li> <a href= "recept.html"> Recepten</a> </li>
+        <li> <a href= "winkel.html"> Winkels</a> </li>
+        <li> <a href= "actie.html"> Acties</a> </li>
+          <li><a href= "winkelmandje.html">Winkelmandje</a></li>
+          </ul>
+          <img id = "cartImage" src= "https://image.flaticon.com/icons/svg/2438/2438168.svg" onclick="clickCart()"> 
+          <h3 id="itemCounter"> 0 </h3>
+          <p id = "orderTotal"></p>
+          </div>
+      </div>
+      </div>
+      </div>
+
+      <figure class="snip1418 hover"><img src="fotos prof\manderij.png" alt="sample96" />
+      <figcaption>
+        <h3>Mandarijnen</h3>
+        <p>Een lekker netje met verse mandarijen, vanuit spanje. </p>
+        <div class="price">
+          <s></s>€1.80
+          <button class="button">koop</button>
+        </div>
+      </figcaption><a href="#"></a>
+    </figure>
+    <figure class="snip1418 hover"><img src="fotos prof\ananas.png" alt="sample96" />
+      <figcaption>
+        <h3>Ananas</h3>
+        <p>Eerst kloppen voordat je de bovenkant eraf snijdt. Wie weet leeft spongebob erin. </p>
+        <div class="price">
+          <s></s>€2.00
+          <button class="button">koop</button>
+        </div>
+      </figcaption><a href="#"></a>
+    </figure>
+    <figure class="snip1418 hover"><img src="fotos prof\mango.png" alt="sample96" />
+      <figcaption>
+        <h3>Mango's</h3>
+        <p>Deze tropische vrucht laat een engel op je tong dansen. Een dikke aanrader. </p>
+        <div class="price">
+          <s></s>€0.80
+          <button class="button">koop</button>
+        </div>
+      </figcaption><a href="#"></a>
+    </figure>
+    <figure class="snip1418 hover"><img src="fotos prof\druiven.png" alt="sample96" />
+      <figcaption>
+        <h3>druiven</h3>
+        <p>Een bakje pitlozen druiven, vaak een goeie snack, klein en compact en nu ook goedkoop. </p>
+        <div class="price">
+          <s></s>€1.20
+          <button class="button">koop</button>
+        </div>
+      </figcaption><a href="#"></a>
+    </figure>    <figure class="snip1418 hover"><img src="fotos prof\bananen.png" alt="sample96" />
+          <figcaption>
+            <h3>Bananen</h3>
+            <p>Aan het trainen voor een goed lichaam of gewoon voor de smaak? then look no further. </p>
+            <div class="price">
+              <s></s>€0,95
+              <button class="button">koop</button>
+            </div>
+          </figcaption><a href="#"></a>
+        </figure>
+        <figure class="snip1418 hover"><img src="fotos prof\aardbei.png" alt="sample96" />
+          <figcaption>
+            <h3>Aardbeien</h3>
+            <p>gewoon een bakje aardbeien of bij de chocolade fondue, altijd lekker sappig. </p>
+            <div class="price">
+              <s></s>€2.25
+              <button class="button">koop</button>
+            </div>
+          </figcaption><a href="#"></a>
+        </figure>
+</body>
+
+<!--ontzichtbare div bovekant pagina dit lost probleem op dat boxen onder elkaar gaan staan weet niet hoe maar haal niet weg-->
+<div class="div2"></div>
+
+  <figure class="snip1419 hover"><img src="fotos prof\watermeloen.png" alt="sample96" />
+  <figcaption>
+    <h3>Watermeloen</h3>
+    <p>Wie houdt nou niet van deze sappige lekkernij? Hard van buiten en zoet van binnen. </p>
+    <div class="price">
+      <s></s>€1.35
+      <button class="button">koop</button>
+    </div>
+  </figcaption><a href="#"></a>
+</figure>
+<figure class="snip1419 hover"><img src="fotos prof\kersen.png" alt="sample96" />
+  <figcaption>
+    <h3>Kersen</h3>
+    <p>De kers op de taart voor jouw milkshake of taart. Een underrated stuk fruit. </p>
+    <div class="price">
+      <s></s>€1.00
+      <button class="button">koop</button>
+    </div>
+  </figcaption><a href="#"></a>
+</figure>
+<figure class="snip1419 hover"><img src="fotos prof\drakenfruit.png" alt="sample96" />
+  <figcaption>
+    <h3>Drakenfruit</h3>
+    <p>Hier heb je weleens over gehoord maar nooit geprobeerd. Wat houd je tegen? </p>
+    <div class="price">
+      <s></s>€1.75
+      <button class="button">koop</button>
+    </div>
+  </figcaption><a href="#"></a>
+</figure>
+<figure class="snip1419 hover"><img src="fotos prof\perzik.png" alt="sample96" />
+  <figcaption>
+    <h3>Perzik</h3>
+    <p>Niet te verwarren met de emoji, zijn deze wel te eten. Goed mooigevormd en sappig. </p>
+    <div class="price">
+      <s></s>€1.15
+      <button class="button">koop</button>
+    </div>
+  </figcaption><a href="#"></a>
+</figure>    <figure class="snip1419 hover"><img src="fotos prof\appel.png" alt="sample96" />
+      <figcaption>
+        <h3>Appels</h3>
+        <p>Je kent 't wel een appeltje voor de dorst. Ik weet dat je dorst hebt dus schaf ze aan. </p>
+        <div class="price">
+          <s></s>€0.45
+          <button class="button">koop</button>
+        </div>
+      </figcaption><a href="#"></a>
+    </figure>
+    <figure class="snip1419 hover"><img src="fotos prof\kiwi.png" alt="sample96" />
+      <figcaption>
+        <h3>Kiwi's</h3>
+        <p>Deze harige ballen met zure binnekant zitten bomvol vitamines. Het schillen is allen irritand. </p>
+        <div class="price">
+          <s></s>€0.80
+          <button class="button">koop</button>
+        </div>
+      </figcaption><a href="#"></a>
+    </figure>
+
+    <div id = "footer">
+      <div class="container">
+        <div class= "onder">
+          <ul id = "footerlist">
+            <li><a class = "menu-footer", href= "algemeenvoor.html"> Algemene voorwaarde </a></li>
+            <li><a class = "menu-footer", href=  "bonusvoor.html"> Bonusvoorwaarde </a></li>
+            <li><a class = "menu-footer", href=  "privacy.html"> Privacy beleid </a> </li>
+            <li><a class = "menu-footer", href= "cookie.html"> Cookiebeleid</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+          
+
+
+</body>
+</html>
