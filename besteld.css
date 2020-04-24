@@ -54,9 +54,18 @@
     text-transform: uppercase;
     font-size: small;
   }
+  #content{
+    padding: 20px;
+  }
   
-  
-  
+  h1 {
+      margin-top: 20px;
+
+  }
+.bestelling-ophalen{
+    text-align: center;
+}
+
   
   
   .onder{
