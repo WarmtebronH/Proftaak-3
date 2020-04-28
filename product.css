@@ -36,11 +36,11 @@
     position: absolute;
     width: 35px;
     height: 100px;
-    right: 185px;
+    right: 168px;
   }
   #itemCounter{
     position: absolute;
-    right: 155px;
+    right: 138px;
     top: 20px;
     color: rgb(0, 87, 209);
     text-transform: uppercase;
@@ -54,6 +54,7 @@
   text-transform: uppercase;
   font-size: small;
 }
+
 
 .topnav input[type=text] {
   padding: 6px;

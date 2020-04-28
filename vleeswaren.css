@@ -36,11 +36,11 @@
     position: absolute;
     width: 35px;
     height: 100px;
-    right: 168px;
+    right: 185px;
   }
   #itemCounter{
     position: absolute;
-    right: 138px;
+    right: 155px;
     top: 20px;
     color: rgb(0, 87, 209);
     text-transform: uppercase;
@@ -49,7 +49,7 @@
   color: rgb(0, 164, 209);
   font-weight: bold;
   position: absolute;
-  right: 45px;
+  right: 56px;
   top: 30px;
   text-transform: uppercase;
   font-size: small;
@@ -81,11 +81,19 @@
   float: left;
 }
 
+.snip1418 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
 
 .snip1418 figcaption {
   padding: 20px;
 }
-
+.snip1418 h3,
+.snip1418 p {
+  margin: 0;
+}
 .snip1418 h3 {
   font-size: 1.5em;
   font-weight: 700;
@@ -192,6 +200,8 @@
   box-sizing: border-box;
   margin-bottom: 80px;
 }
+
+
 .onder{
   text-align: center;
   margin: 20px;
